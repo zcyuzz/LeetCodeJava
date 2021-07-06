@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Q1365uf {
+public class Q1365uf2 {
     public static int[] smallerNumbersThanCurrent(int[] nums) {
         // Brute force
 //        int[] result = new int[nums.length];
