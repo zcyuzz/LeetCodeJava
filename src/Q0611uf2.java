@@ -20,7 +20,7 @@ public class Q0611uf2 {
         if (nums.length < 3) return 0;
         int result = 0;
         Arrays.sort(nums);
-
+        return 0;
     }
 
     public static void main(String[] args) {
