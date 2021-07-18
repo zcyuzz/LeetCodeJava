@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Q0611 {
+public class Q0611uf2 {
     public static int triangleNumber(int[] nums) {
         //brute force
 //        if (nums.length < 3) return 0;
