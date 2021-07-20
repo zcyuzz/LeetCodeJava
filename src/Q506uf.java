@@ -1,17 +1,22 @@
 import java.util.Arrays;
 
 public class Q506uf {
-    public String[] findRelativeRanks(int[] score) {
+    public static String[] findRelativeRanks(int[] score) {
         String [] result = new String[score.length];
-        Arrays.sort(score);
-        for(int i = score.length-1;i>=0;i--){
-            if(i==0) result[i]="Gold Medal";
-            if(i==1) result[i]="Silver Medal";
-            if(i==2) result[i]="Bronze Medal";
-            else{
-
-            }
+        int [] temp = new int[10001];
+        for(int i =0;i<score.length;i++){
+            temp[score[i]]=score[i];
         }
-        return new String []{};
+        System.out.println(Arrays.toString(temp));
+        for(int i=0;i<result.length;i++){
+            result[i]= temp[i]+"";
+        }
+        return result;
     }
+
+    public static void main(String[] args) {
+        int [] temp = new int []{10,3,8,9,4};
+        System.out.println(Arrays.toString(findRelativeRanks(temp)));
+    }
+
 }
