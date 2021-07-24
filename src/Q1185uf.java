@@ -1,8 +1,8 @@
-public class Q1185 {
+public class Q1185uf {
     public static String dayOfTheWeek(int day, int month, int year) {
         int days = 0 ;
         days += (year-1971)*365;
-        days += year>2000? (year-1971/2);
+        days += year>2000? (year-1971/2):1;
         System.out.println(days);
         return "";
     }

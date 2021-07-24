@@ -1,4 +1,4 @@
-public class Q1051 {
+public class Q1051uf2 {
     public int heightChecker(int[] heights) {
         //sort array first
 //        int result = 0;
