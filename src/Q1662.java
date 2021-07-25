@@ -1,5 +1,6 @@
 public class Q1662 {
     public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
+        // compare running sum of two string arrays
         String first = "";
         String second = "";
         for(String s: word1){
