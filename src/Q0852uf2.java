@@ -1,4 +1,4 @@
-public class Q0852 {
+public class Q0852uf2 {
     public int peakIndexInMountainArray(int[] arr) {
         //O(n)
         int result = 0;
