@@ -17,6 +17,15 @@ public class SortingTest {
         s = s.replace('[','{');
         s = s. replace(']','}');
         System.out.println(s);
+        int [] test = new int[100];
+        for(int i = 0; i <100;i++){
+            test[i]=i;
+        }
+        for(int i = 99;i>=0;i--){
+            System.out.println(test[i]);
+        }
+
+
     }
 
     public static void selectionSort(int[] nums) {
