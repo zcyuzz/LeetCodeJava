@@ -10,6 +10,8 @@ public class SortingTest {
         a.put(3,0);
         a.put(3,1);
         System.out.println(a);
+        System.out.println(9%10);
+        System.out.println(9/10);
 
 
     }
