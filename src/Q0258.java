@@ -1,15 +1,15 @@
 public class Q0258 {
     public int addDigits(int num) {
         //brute force without String
-        int result =0;
-        while (num>=0){
-            while (num>0){
-                result+=num%10;
-                num/=10;
+        int result = 0;
+        while (num >= 0) {
+            while (num > 0) {
+                result += num % 10;
+                num /= 10;
             }
-            if(result<10) return result;
+            if (result < 10) return result;
             num = result;
-            result =0;
+            result = 0;
         }
         return result;
         //math
@@ -27,5 +27,4 @@ public class Q0258 {
 //        result = Integer.valueOf(s);
 //        return result;
     }
-
 }
