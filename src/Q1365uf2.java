@@ -12,17 +12,17 @@ public class Q1365uf2 {
 //        return result;
         //Sorted array-unfinished
         int[] result = new int[nums.length];
-        int[]  smallerNumbers = new int[101];
-        for(int i =0;i<nums.length;i++){
-            smallerNumbers[nums[i]+1]++;
+        int[] smallerNumbers = new int[101];
+        for (int i = 0; i < nums.length; i++) {
+            smallerNumbers[nums[i] + 1]++;
         }
         for (int i = 0; i < nums.length; i++) {
-            
+
         }
         return result;
     }
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(smallerNumbersThanCurrent(new int[]{8,1,2,2,3})));
+        System.out.println(Arrays.toString(smallerNumbersThanCurrent(new int[]{8, 1, 2, 2, 3})));
     }
 }

@@ -12,11 +12,11 @@ public class Q1528uf2 {
 //        return result;
         //using char array
         String result = "";
-        int count =0;
-        char [] temp = new char[s.length()];
-        for(int i : indices){
+        int count = 0;
+        char[] temp = new char[s.length()];
+        for (int i : indices) {
             System.out.println(i);
-            temp[count] =s.charAt(i);
+            temp[count] = s.charAt(i);
             count++;
         }
         return new String(temp);
@@ -24,7 +24,7 @@ public class Q1528uf2 {
 
     public static void main(String[] args) {
         String s = "codeleet";
-        int [ ] indices = new int[]{4,5,6,7,0,2,1,3};
-        System.out.println(restoreString(s,indices));
+        int[] indices = new int[]{4, 5, 6, 7, 0, 2, 1, 3};
+        System.out.println(restoreString(s, indices));
     }
 }

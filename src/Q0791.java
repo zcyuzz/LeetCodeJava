@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Q0791 {
     public static String customSortString(String order, String str) {
         String result = "";

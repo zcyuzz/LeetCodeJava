@@ -3,8 +3,8 @@ public class Q0852uf2 {
         //O(n)
         int result = 0;
         int max = Integer.MIN_VALUE;
-        for(int i =0;i<arr.length;i++){
-            if(arr[i]>=max){
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] >= max) {
                 max = arr[i];
                 result = i;
             }

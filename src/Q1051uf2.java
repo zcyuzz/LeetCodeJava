@@ -9,13 +9,13 @@ public class Q1051uf2 {
 //        }
 //        return result;
         //Counting sort
-        int result =0;
-        int [] temp = new int [ 101];
-        for(int i =0;i<heights.length;i++){
+        int result = 0;
+        int[] temp = new int[101];
+        for (int i = 0; i < heights.length; i++) {
             temp[heights[i]]++;
         }
-        int index =0;
-        for(int i =0;i<101;i++){
+        int index = 0;
+        for (int i = 0; i < 101; i++) {
 
         }
         return result;

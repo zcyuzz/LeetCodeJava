@@ -1,6 +1,4 @@
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class Q1389 {
     public static int[] createTargetArray(int[] nums, int[] index) {
@@ -14,19 +12,19 @@ public class Q1389 {
 //        }
 //        return nums;
         //array insertion
-        int [] result = new int[nums.length];
-        for(int i = 0;i< nums.length;i++){
-            for(int j = nums.length-1;j>index[i];j--){
-                result[j]=result[j-1];
+        int[] result = new int[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = nums.length - 1; j > index[i]; j--) {
+                result[j] = result[j - 1];
             }
-            result[index[i]]=nums[i];
+            result[index[i]] = nums[i];
         }
         return result;
     }
 
     public static void main(String[] args) {
-        int [] nums = new int[]{0,1,2,3,4};
-        int [] index = new int[]{0,1,2,2,1};
-        System.out.println(Arrays.toString(createTargetArray(nums,index)));
+        int[] nums = new int[]{0, 1, 2, 3, 4};
+        int[] index = new int[]{0, 1, 2, 2, 1};
+        System.out.println(Arrays.toString(createTargetArray(nums, index)));
     }
 }

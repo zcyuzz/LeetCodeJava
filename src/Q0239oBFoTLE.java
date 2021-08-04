@@ -16,13 +16,10 @@ public class Q0239oBFoTLE {
         if (k == 1) return nums;
         int windows = nums.length - k + 1;
         int[] result = new int[windows];
-        int maxIndex =0;
-        for(int i=0;i<windows;i++){
+        int maxIndex = 0;
+        for (int i = 0; i < windows; i++) {
 
         }
-
-
-
 
 
         return result;

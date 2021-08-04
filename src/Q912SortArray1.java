@@ -1,11 +1,9 @@
-
-
 public class Q912SortArray1 {
     public static void main(String[] args) {
         //generate random int array
-        int [] random = new int[100000];
-        for(int i =0;i<random.length;i++){
-            random[i]= (int) (Math.random()*100000);
+        int[] random = new int[100000];
+        for (int i = 0; i < random.length; i++) {
+            random[i] = (int) (Math.random() * 100000);
         }
         //Selection Sort
         long start = System.nanoTime();
@@ -22,7 +20,7 @@ public class Q912SortArray1 {
     //bubble sort
     public static int[] bubbleSortArray(int[] nums) {
         for (int i = 0; i < nums.length - 1; i++) {
-            for (int j = 0; j < nums.length - i-1; j++) {
+            for (int j = 0; j < nums.length - i - 1; j++) {
                 if (nums[j] > nums[j + 1]) {
                     int temp = nums[j];
                     nums[j] = nums[j + 1];

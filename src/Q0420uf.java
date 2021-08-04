@@ -1,5 +1,3 @@
-
-
 public class Q0420uf {
     public static int strongPasswordChecker(String password) {
         int result = 0;

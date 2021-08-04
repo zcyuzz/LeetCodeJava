@@ -1,5 +1,3 @@
-
-
 public class Q0832 {
     public static int[][] flipAndInvertImage(int[][] image) {
         int n = image.length;
@@ -8,7 +6,7 @@ public class Q0832 {
             temp = image[i].clone();
             for (int j = 0; j < image[i].length; j++) {
                 image[i][j] = temp[n - j - 1];
-                image[i][j]=image[i][j]==1?0:1;
+                image[i][j] = image[i][j] == 1 ? 0 : 1;
             }
         }
         return image;
