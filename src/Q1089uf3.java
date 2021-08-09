@@ -1,4 +1,4 @@
-public class Q1089 {
+public class Q1089uf3 {
     public void duplicateZeros(int[] arr) {
         //two pointer Time: O(n) Space: O(n)
         int i = 0, j = 0;
