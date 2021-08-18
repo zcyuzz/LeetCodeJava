@@ -1,6 +1,6 @@
 
 
-public class Q912SortArray1 {
+public class Q0912SortArray1 {
     public static void main(String[] args) {
         //generate random int array
         int[] random = new int[50000];

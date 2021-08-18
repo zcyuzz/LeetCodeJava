@@ -1,4 +1,4 @@
-public class Q905 {
+public class Q0905 {
     public int[] sortArrayByParity(int[] nums) {
         int[] result = new int[nums.length];
         int front = 0;
