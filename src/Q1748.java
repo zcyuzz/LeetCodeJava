@@ -1,5 +1,3 @@
-
-
 public class Q1748 {
     public int sumOfUnique(int[] nums) {
         int result = 0;
