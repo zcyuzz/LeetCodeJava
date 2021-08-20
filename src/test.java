@@ -12,7 +12,8 @@ public class test {
         System.out.println(a);
         System.out.println(9 % 10);
         System.out.println(9 / 10);
-
+        System.out.println(-9 % 10);
+        System.out.println(-9 / 1);
 
     }
 }
