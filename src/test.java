@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.Stack;
 
 public class test {
     public static void main(String[] args) {
@@ -10,10 +11,12 @@ public class test {
         a.put(3, 0);
         a.put(3, 1);
         System.out.println(a);
-        System.out.println(9 % 10);
-        System.out.println(9 / 10);
-        System.out.println(-9 % 10);
-        System.out.println(-9 / 1);
+        Stack<Integer> stack = new Stack<>();
+        stack.push(1);
+        stack.push(2);
+        System.out.println(stack.peek());
+        stack.pop();
+        System.out.println(stack.peek());
 
     }
 }
