@@ -1,4 +1,4 @@
-public class Q0028 {
+public class Q0028uf2 {
     public int strStr(String haystack, String needle) {
         if (needle.length() > haystack.length()) return -1;
         if (needle.length() == 0) return 0;
