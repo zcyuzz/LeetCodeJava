@@ -1,6 +1,6 @@
 import com.sun.source.tree.ReturnTree;
 
-public class Q0008 {
+public class Q0008uf {
     public int myAtoi(String s) {
         StringBuilder sb = new StringBuilder();
         boolean leadingWhiteSpace = true;
