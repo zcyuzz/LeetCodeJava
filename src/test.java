@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.HashMap;
 import java.util.Stack;
 
@@ -17,7 +18,7 @@ public class test {
         System.out.println(stack.peek());
         stack.pop();
         System.out.println(stack.peek());
-
+        System.out.println(Integer.parseInt("0"));
     }
 }
 

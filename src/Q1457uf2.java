@@ -12,5 +12,6 @@ public class Q1457uf2 {
 //            }
 //        }
 //        return prices;
+        return prices;
     }
 }
