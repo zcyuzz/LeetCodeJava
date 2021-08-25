@@ -4,8 +4,11 @@ public class test {
         s = s.replace('[', '{');
         s = s.replace(']', '}');
         System.out.println(s);
-        for (int i = 0; i <= 500; i++) {
-            System.out.println(i);
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i <= 25; i++) {
+            sb.append((char) ('a' + i));
+            System.out.println("\"" + sb.toString() + "\"");
+            System.out.println(3);
         }
 
 
