@@ -5,14 +5,13 @@ public class test {
         s = s.replace(']', '}');
         System.out.println(s);
         StringBuilder sb = new StringBuilder();
-        for (int i = 0; i <= 25; i++) {
-            sb.append((char) ('a' + i));
-            System.out.println("\"" + sb.toString() + "\"");
-            System.out.println(3);
-        }
+        float x = (float) 33554431.0;
+        float y = (float) 0.33554431;
+        System.out.println(x);
+        System.out.println(y);
+    }
 
 
     }
-}
 
 
