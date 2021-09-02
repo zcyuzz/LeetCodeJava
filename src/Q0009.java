@@ -3,10 +3,9 @@ public class Q0009 {
         if (x < 0) return false;
         int reverse = 0, temp = x;
         while (temp != 0) {
-            reverse *= 10;
-            reverse += temp / 10;
+            reverse = reverse * 10 + temp % 10;
             temp /= 10;
         }
-        return x == temp;
+        return x == reverse;
     }
 }
