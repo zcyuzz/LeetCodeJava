@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class test {
     public static void main(String[] args) {
         String s = "[[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]]";
@@ -7,12 +5,16 @@ public class test {
         s = s.replace(']', '}');
         System.out.println(s);
         StringBuilder sb = new StringBuilder();
-        float x = (float) 33554431.0;
-        float y = (float) 0.33554431;
-        System.out.println(x);
-        System.out.println(y);
-        boolean[] testtt = new boolean[10];
-        System.out.println(Arrays.toString(testtt));
+        int[] temp = new int[10000];
+        for (int i = 0; i < temp.length; i++) temp[i] = i;
+
+
+    }
+
+    public static int binarySearch(int[] n) {
+
+
+        return 0;
     }
 
 
